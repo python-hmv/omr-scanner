@@ -1,8 +1,8 @@
-# omr
+# OMR Scanner With Py
 
-![Python application](https://github.com/rbaron/omr/workflows/omr/badge.svg)
+Omr Sheet Scanner Build With Python
 
-omr is a small Python 3 **o**ptical **m**ark **r**ecognition script. It takes as input an image of an answered answer sheet and outputs which alternatives were marked. The project is generally optimized for conciseness and teachability, and the goal is to provide a reasonable starting point for learning and hopefully building more powerful applications.
+
 
 ## Usage
 ```sh
@@ -44,7 +44,7 @@ And got the following output:
 ### Using pipenv with pyenv
 Install [pyenv](https://github.com/pyenv/pyenv)
 ```sh
-$ git clone https://github.com/rbaron/omr
+$ git clone https://github.com/python-hmv/omr-scanner
 $ cd omr/
 $ pyenv install 3.7.5
 $ pyenv local 3.7.5
@@ -55,7 +55,7 @@ $ py.test
 ```
 ### Using virtualenv
 ```sh
-$ git clone https://github.com/rbaron/omr
+$ git clone https://github.com/python-hmv/omr-scanner
 $ cd omr/
 $ virtualenv --python=`which python3` venv
 $ source venv/bin/activate
@@ -81,3 +81,4 @@ test_omr.py .                                                                   
 ============================================================ 1 passed in 0.31s ============================================================
 ```
 
+### Made by [`Harshil Vasani`](https://www.instagram.com/python.hmv/)
